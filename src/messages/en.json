@@ -1,0 +1,63 @@
+{
+    "Header": {
+        "experience": "Experience",
+        "skills": "Skills",
+        "about": "About Me",
+        "contact": "Contact"
+    },
+    "Footer": {
+        "rights": "All rights reserved",
+        "about": "About Me",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "badge": "Available for work",
+        "title": "Hey! I'm León Soler",
+        "description": "+4 years of experience. <highlight>Systems Engineer and Fullstack Developer</highlight> from Tandil, Argentina 🇦🇷. Specialized in web and mobile application development.",
+        "contact": "Contact Me",
+        "linkedin": "LinkedIn"
+    },
+    "Experience": {
+        "title": "Work Experience",
+        "exeo_lead": {
+            "date": "2024 – Present",
+            "title": "Lead Developer",
+            "company": "Exeo IT",
+            "description": "Led a massive refactor in 'The Journey', decoupling a monolith into microservices and redesigning the React Native app (+5k monthly active users). In parallel, directed the Frontend migration of Interbanking's institutional website using Next.js and Contentful CMS."
+        },
+        "exeo_fullstack": {
+            "date": "2023 – 2024",
+            "title": "Full Stack Developer",
+            "company": "Exeo IT",
+            "description": "Participated in diverse projects for Volkswagen and DPI (Petroleum Engineering) as a Full Stack Developer. Developed new backend services, implemented interactive screens, and full end-to-end features, ensuring software quality and scalability."
+        },
+        "medialab": {
+            "date": "2022 – 2023",
+            "title": "Mobile Developer",
+            "company": "MediaLab",
+            "description": "Contributed to the development of a mobile application to promote labor inclusion for people with disabilities as a final degree project for Systems Engineering."
+        }
+    },
+    "Skills": {
+        "title": "Technical Skills",
+        "frontend_mobile": "Frontend & Mobile",
+        "backend": "Backend",
+        "database_cloud": "Database & Cloud",
+        "soft_skills": "Soft Skills",
+        "social": "Social Skills",
+        "english": "English",
+        "humor": "Sense of Humor"
+    },
+    "AboutMe": {
+        "title": "About Me",
+        "p1": "I am a passionate <strong1>Software Engineer</strong1> graduated from UNICEN with experience building scalable solutions. While my expertise spans both front-end and back-end development, I have a strong passion for <strong2>mobile development</strong2>, creating seamless and user-friendly applications.",
+        "p2": "I have solid experience with technologies like React, React Native, JavaScript, TypeScript, Java, Spring Boot, Python, and AWS, enabling me to design <strong3>secure and scalable applications</strong3>.",
+        "p3": "I enjoy solving complex problems by designing simple, effective solutions and thrive in collaborative environments where I can teach and learn from others.",
+        "education_title": "My academic background includes:",
+        "degree_1": "Systems Engineer",
+        "degree_2": "University Programmer Analyst",
+        "unicen": "UNICEN",
+        "years_1": "2018-2023",
+        "years_2": "2018-2022"
+    }
+}
