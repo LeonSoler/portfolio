@@ -21,7 +21,7 @@ export default function LanguageSelector() {
         <button
             onClick={toggleLanguage}
             disabled={isPending}
-            className="ml-1 mr-1 appearance-none border-none flex hover:scale-125 transition items-center justify-center font-medium opacity-80 hover:opacity-100"
+            className="appearance-none border-none flex hover:scale-125 transition items-center justify-center font-medium opacity-80 hover:opacity-100 min-w-[20px]"
             aria-label="Cambiar idioma"
         >
             {locale.toUpperCase()}

@@ -70,7 +70,7 @@ export const Header = () => {
 
     return (
         <header className="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2">
-            <nav className={`flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center transition-all duration-300 ${isScrolled
+            <nav className={`flex flex-wrap px-2 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center transition-all duration-300 gap-x-2 ${isScrolled
                 ? "bg-white/50 dark:bg-gray-800/90 ring-1 ring-white/10 shadow-lg backdrop-blur-[20px]"
                 : "bg-transparent border-transparent"
                 }`}>

@@ -6,6 +6,9 @@ import { SocialPill } from "@/components/SocialPill"
 
 import { useTranslations } from 'next-intl'
 
+import Image from "next/image"
+import meSquare from "@/assets/images/me-square.webp"
+
 export const Hero = () => {
     const t = useTranslations('Hero')
     const personalImageAlt = "León Soler"
@@ -13,10 +16,12 @@ export const Hero = () => {
     return (
         <div className="max-w-xl">
             <div className="flex gap-4 mb-4">
-                <img
-                    className="rounded-full shadow-lg size-16"
-                    src="/me_1:1.webp"
+                <Image
+                    className="rounded-full shadow-lg"
+                    src={meSquare}
                     alt={personalImageAlt}
+                    width={64}
+                    height={64}
                 />
                 <a
                     href="https://linkedin.com/in/leonsoler"

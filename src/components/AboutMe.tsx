@@ -1,6 +1,9 @@
 
 import { useTranslations } from 'next-intl'
 
+import Image from "next/image"
+import meGlobes from "@/assets/images/me-globes.webp"
+
 export const AboutMe = () => {
     const t = useTranslations('AboutMe')
     const personalImageAlt = "León Soler"
@@ -38,9 +41,11 @@ export const AboutMe = () => {
                 </ul>
             </div>
 
-            <img
-                src="/me_globes.webp"
+            <Image
+                src={meGlobes}
                 alt={personalImageAlt}
+                width={256}
+                height={256}
                 className="order-1 object-cover w-64 h-auto p-1 md:order-2 lg:p-2 lg:w-64 rounded-2xl bg-black/20 dark:bg-emerald-500/5 ring-1 ring-black/70 dark:ring-white/20"
                 style={{ objectPosition: "50% 50%" }}
             />

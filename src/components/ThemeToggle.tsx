@@ -27,7 +27,7 @@ export const ThemeToggle = () => {
     ]
 
     return (
-        <div className="relative ml-1 mr-1">
+        <div className="relative">
             <button
                 onClick={(e) => {
                     e.stopPropagation()
