@@ -4,9 +4,12 @@ import { useTranslations } from 'next-intl'
 import Image from "next/image"
 import meGlobes from "@/assets/images/me-globes.webp"
 
+import { calculateAge } from "@/utils/years"
+
 export const AboutMe = () => {
     const t = useTranslations('AboutMe')
     const personalImageAlt = "León Soler"
+    const age = calculateAge(new Date(1999, 11, 17))
 
     return (
         <article className="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
@@ -14,7 +17,8 @@ export const AboutMe = () => {
                 <p>
                     {t.rich('p1', {
                         strong1: (chunks) => <strong>{chunks}</strong>,
-                        strong2: (chunks) => <strong>{chunks}</strong>
+                        strong2: (chunks) => <strong>{chunks}</strong>,
+                        age
                     })}
                 </p>
 
@@ -26,6 +30,12 @@ export const AboutMe = () => {
 
                 <p>
                     {t('p3')}
+                </p>
+
+                <p>
+                    {t.rich('p4', {
+                        em: (chunks) => <em>{chunks}</em>
+                    })}
                 </p>
 
                 <p>

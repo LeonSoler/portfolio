@@ -9,9 +9,12 @@ import { useTranslations } from 'next-intl'
 import Image from "next/image"
 import meSquare from "@/assets/images/me-square.webp"
 
+import { calculateAge } from "@/utils/years"
+
 export const Hero = () => {
     const t = useTranslations('Hero')
     const personalImageAlt = "León Soler"
+    const age = calculateAge(new Date(1999, 11, 17))
 
     return (
         <div className="max-w-xl">
@@ -37,7 +40,8 @@ export const Hero = () => {
             </h1>
             <p className="mt-6 text-xl text-gray-800 dark:[&>strong]:text-emerald-200 [&>strong]:text-emerald-500 [&>strong]:font-semibold dark:text-gray-300">
                 {t.rich('description', {
-                    highlight: (chunks) => <strong>{chunks}</strong>
+                    highlight: (chunks) => <strong>{chunks}</strong>,
+                    age
                 })}
             </p>
             <nav className="flex flex-wrap gap-4 mt-8">

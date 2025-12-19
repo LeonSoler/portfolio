@@ -49,11 +49,12 @@
         "humor": "Sense of Humor"
     },
     "AboutMe": {
-        "title": "About Me",
-        "p1": "I am a passionate <strong1>Software Engineer</strong1> graduated from UNICEN with experience building scalable solutions. While my expertise spans both front-end and back-end development, I have a strong passion for <strong2>mobile development</strong2>, creating seamless and user-friendly applications.",
-        "p2": "I have solid experience with technologies like React, React Native, JavaScript, TypeScript, Java, Spring Boot, Python, and AWS, enabling me to design <strong3>secure and scalable applications</strong3>.",
-        "p3": "I enjoy solving complex problems by designing simple, effective solutions and thrive in collaborative environments where I can teach and learn from others.",
-        "education_title": "My academic background includes:",
+        "title": "About me",
+        "p1": "I'm 26 years old and a <strong1>Systems Engineer</strong1> graduated from UNICEN. I've always been passionate about computers: since I was a kid, I was fascinated by understanding how they worked and building things with them. Today I work as a fullstack developer, with special interest in smooth, well-thought mobile applications.",
+        "p2": "In my day-to-day, I use Linux because I like having total control over my development environment (and honestly, almost anything is better than Windows). I'm passionate about creating software that's useful, maintainable, and doesn't make users suffer.",
+        "p3": "Outside of code, I love animals —I have a calico cat named Graciela who thinks she owns the keyboard— and movies. Quentin Tarantino is my favorite director and Kill Bill is my all-time favorite movie.",
+        "p4": "I describe myself as an old soul: I prefer steady, well-done work over unnecessary rush. As Uncle Bob says: <em>\"The only way to go fast, is to go well.\"</em> I enjoy collaborating in teams, teaching what I know, and learning from others. I always seek simple solutions to complex problems, because elegance tends to be the most effective.",
+        "education_title": "Academic Background:",
         "degree_1": "Systems Engineer",
         "degree_2": "University Programmer Analyst",
         "unicen": "UNICEN",

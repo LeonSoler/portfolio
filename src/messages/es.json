@@ -12,9 +12,9 @@
     },
     "Hero": {
         "badge": "Disponible para trabajar",
-        "title": "Hola!, soy León Soler",
-        "description": "+3 años de experiencia. <highlight>Ingeniero de Sistemas y Desarrollador Fullstack</highlight> de Tandil, Argentina 🇦🇷. Especializado en el desarrollo de aplicaciones web y mobile.",
-        "contact": "Contáctame",
+        "title": "¡Hola! León Soler",
+        "description": "{age} años. <highlight>Ingeniero de Sistemas y Fullstack</highlight> de Tandil 🇦🇷. Construyo apps web/mobile que funcionan. +3 años de experiencia real.",
+        "contact": "Hablemos",
         "linkedin": "LinkedIn"
     },
     "Experience": {
@@ -23,13 +23,13 @@
             "date": "2024 – Actualidad",
             "title": "Lead Developer",
             "company": "Exeo IT",
-            "description": "Lideré a un equipo de desarrollo para una refactorización muy grande en 'The Journey', desacoplando un monolito en microservicios y a su vez rediseñando toda la app React Native (+5k usuarios activos mensuales). Paralelamente, dirigí la migración Frontend de la web institucional de Interbanking utilizando Next.js y Contentful CMS."
+            "description": "Lideré un equipo de desarrollo para una refactorización mayor en 'The Journey', desacoplando un monolito en microservicios y rediseñando completamente la app React Native (+5k usuarios activos mensuales). Paralelamente, dirigí la migración Frontend de la web institucional de Interbanking utilizando Next.js y Contentful CMS, mejorando significativamente la mantenibilidad y el time-to-publish."
         },
         "exeo_fullstack": {
             "date": "2023 – 2024",
             "title": "Full Stack Developer",
             "company": "Exeo IT",
-            "description": "Participé en diversos proyectos para Volkswagen y DPI (Ingeniería de Petróleo) como Full Stack Developer. Desarrollé nuevos servicios backend, implementé pantallas interactivas y funcionalidades completas end-to-end, asegurando la calidad y escalabilidad del software."
+            "description": "Participé en diversos proyectos para Volkswagen y DPI (Ingeniería de Petróleo) como Full Stack Developer. Desarrollé nuevos servicios backend, implementé pantallas interactivas y funcionalidades completas end-to-end, asegurando la calidad, escalabilidad y mantenibilidad del software a través de pruebas automatizadas y buenas prácticas."
         },
         "medialab": {
             "date": "2022 – 2023",
@@ -39,21 +39,22 @@
         }
     },
     "Skills": {
-        "title": "Habilidades Técnicas",
+        "title": "Habilidades técnicas",
         "frontend_mobile": "Frontend & Mobile",
         "backend": "Backend",
         "database_cloud": "Database & Cloud",
         "soft_skills": "Habilidades Blandas",
         "social": "Habilidades Sociales",
-        "english": "Inglés",
-        "humor": "Sentido del Humor"
+        "english": "Inglés (B2)",
+        "humor": "Sentido del humor"
     },
     "AboutMe": {
         "title": "Sobre mí",
-        "p1": "Soy un apasionado <strong1>Ingeniero de Software</strong1> graduado de la UNICEN con experiencia construyendo soluciones escalables. Aunque mi experiencia abarca tanto el desarrollo front-end como back-end, tengo una gran pasión por el <strong2>desarrollo móvil</strong2>, creando aplicaciones fluidas y amigables para el usuario. Además, me encanta usar Linux en mi día a día de desarrollo.",
-        "p2": "Cuento con sólida experiencia en tecnologías como React, React Native, JavaScript, TypeScript, Java, Spring Boot, Python y AWS, lo que me permite diseñar <strong3>aplicaciones seguras y escalables</strong3>.",
-        "p3": "Disfruto resolviendo problemas complejos diseñando soluciones simples y efectivas, y me desenvuelvo bien en entornos colaborativos donde puedo enseñar y aprender de los demás.",
-        "education_title": "Mi formación académica incluye:",
+        "p1": "Tengo 26 años y soy <strong1>Ingeniero de Sistemas</strong1> graduado en la UNICEN. Siempre fui alguien apasionado por las computadoras: desde chico me fascinaba entender cómo funcionaban y construir cosas con ellas. Hoy trabajo como desarrollador fullstack, con especial interés en aplicaciones móviles fluidas y bien pensadas.",
+        "p2": "En mi día a día uso Linux porque me gusta tener control total sobre mi entorno de desarrollo (y porque la verdad casi cualquier cosa es mejor que Windows). Me apasiona crear software que sea útil, mantenible y que no haga sufrir a los usuarios.",
+        "p3": "Fuera del código, amo los animales —tengo una gata carey llamada Graciela que se cree la dueña del teclado— y el cine. Quentin Tarantino es mi director favorito y Kill Bill mi película favorita de todos los tiempos.",
+        "p4": "Me describo como un alma vieja: prefiero el trabajo constante y bien hecho antes que prisas innecesarias. Como dice Uncle Bob: <em>\"The only way to go fast, is to go well.\"</em> Disfruto colaborar en equipos, enseñar lo que sé y aprender de los demás. Siempre busco soluciones simples para problemas complejos, porque lo elegante suele ser lo más efectivo.",
+        "education_title": "Formación académica:",
         "degree_1": "Ingeniero de Sistemas",
         "degree_2": "Analista Programador Universitario",
         "unicen": "UNICEN",
